@@ -58,6 +58,13 @@ body {
 .about-us-background {
     background-color: rgba(179, 164, 164, 0.616);
 }
+/* blog */
+.background-blog-1 {
+    background-image: url('../img/page-info-bg-4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+}
 /* content */
 ul {
     list-style-type: none;
@@ -181,7 +188,7 @@ nav ul a:hover {
     background-color: white;
     color: black;
 }
-.section-4 a, .section-3-about a{
+.section-4 a, .section-3-about a, .section-1-blog a{
     color: black;
     text-transform: uppercase;
 }
@@ -190,6 +197,19 @@ footer a {
     font-size: 12px;
     color: white;
     font-weight: bold;
+}
+/* content blog */
+.petit-carre-orange {
+    width: 80px;
+    height: 80px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+    outline: 1px solid;
+    color: white;
+    background-color: rgb(204,170,124);
+    outline-offset: -5px;
+
 }
 /* patern */
 .width-100 {
